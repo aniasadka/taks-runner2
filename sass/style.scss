@@ -1,0 +1,272 @@
+/* Variables */
+/* fonts */
+/* colors */
+/* Global */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotu";
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    min-height: 100vh;
+    background: url(https://image.freepik.com/free-photo/flat-lay-desktop-with-laptop-glasses_23-2148430803.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .header .container {
+    position: relative;
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 0 15px;
+  }
+  
+  /* Menu */
+  .header .menu {
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    right: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  
+  .header .menu ul {
+    list-style: none;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .header .menu ul li {
+    margin: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: "Leckerli One";
+    color: #eccc68;
+    font-size: 20px;
+    transition: 1s;
+  }
+  
+  .logo:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  
+  /* Main */
+  .main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  
+  .main h1, p {
+    text-shadow: 1px 1px 5px #000;
+  }
+  
+  .main h1 {
+    font-style: italic;
+    font-family: "Gotu";
+    margin-bottom: 10px;
+    font-size: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    letter-spacing: 0.8px;
+  }
+  
+  .main p {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+  }
+  
+  .button {
+    width: 280px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    color: #ffffff;
+    background-color: #fed330;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-weight: bolder;
+    letter-spacing: 0.4px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  /* Section services */
+  .services {
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .services .container {
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  
+  .services .container .text {
+    position: absolute;
+    left: 0;
+    top: 15vh;
+    right: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .text h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+    letter-spacing: 0.9px;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    text-shadow: none;
+    font-style: italic;
+    color: #707070;
+  }
+  
+  .services .boxes {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .boxes .box {
+    text-align: center;
+    margin: 0 25px;
+  }
+  
+  .box h3 {
+    font-size: 21px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    text-shadow: none;
+    font-size: 14px;
+    color: #707070;
+  }
+  
+  /* Section PORTFOLIO */
+
+  .portfolio {
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .portfolio .container {
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  
+  .portfolio .container .text {
+    position: absolute;
+    left: 0;
+    top: 15vh;
+    right: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .text h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+    letter-spacing: 0.9px;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    text-shadow: none;
+    font-style: italic;
+    color: #707070;
+  }
+  
+  .portfolio .boxes {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .boxes .box {
+    text-align: center;
+    margin: 0 25px;
+  }
+  
+  .box h3 {
+    font-size: 21px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    text-shadow: none;
+    font-size: 14px;
+    color: #707070;
+  }
