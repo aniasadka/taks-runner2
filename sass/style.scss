@@ -201,11 +201,11 @@
     color: #707070;
   }
   
-  /* Section PORTFOLIO */
+  /* Section PORTFOLIO*/
 
   .portfolio {
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #c2c0c0;
   }
   
   .portfolio .container {
@@ -218,7 +218,7 @@
   }
   
   .portfolio .container .text {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 15vh;
     right: 0;
@@ -229,7 +229,8 @@
     -ms-flex-align: center;
         align-items: center;
   }
-  
+
+ 
   .text h2 {
     text-transform: uppercase;
     font-size: 45px;
@@ -237,36 +238,21 @@
     font-family: "Roboto Condensed";
     letter-spacing: 0.9px;
     margin-bottom: 10px;
-  }
-  
-  .text p {
-    text-shadow: none;
-    font-style: italic;
-    color: #707070;
-  }
-  
-  .portfolio .boxes {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-        align-items: center;
-  }
-  
-  .boxes .box {
     text-align: center;
-    margin: 0 25px;
   }
   
-  .box h3 {
-    font-size: 21px;
-    font-family: "Roboto Condensed";
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 10px;
-  }
+
   
-  .box p {
-    text-shadow: none;
-    font-size: 14px;
-    color: #707070;
+  .card-body .card-text p {
+      text-shadow: none;
   }
+
+
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+   
